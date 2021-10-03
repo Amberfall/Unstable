@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -478,7 +478,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07f7aec175356454e89e89192b31c1ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1041915046}
   OtherPlayer: {fileID: 1725332870}
   PlayerAttributes: {fileID: 1577927013}
 --- !u!50 &1041915046
@@ -883,7 +882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07f7aec175356454e89e89192b31c1ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1725332872}
   OtherPlayer: {fileID: 1041915045}
   PlayerAttributes: {fileID: 1577927013}
 --- !u!61 &1725332871
@@ -1045,7 +1043,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -578.31, y: 306.56}
+  m_AnchoredPosition: {x: -247, y: 151}
   m_SizeDelta: {x: 243.37, y: 30.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1972756039
