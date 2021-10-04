@@ -16,14 +16,36 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         foreach (Player player in players) 
         {
             if (player.enabled)
             {
-                
+                follow(player.transform.position);
             }
+        }
+    }
+
+    private void follow(Vector3 point) 
+    {
+        if (point.y < 0) 
+        {
+            Vector3 pos = transform.position;
+            pos.y = 0;
+            transform.position = pos;
+        }
+        else if (point.y > 192.67f)
+        {
+            Vector3 pos = transform.position;
+            pos.y = 192.67f;
+            transform.position = pos;
+        }
+        else 
+        {
+            Vector3 pos = transform.position;
+            pos.y = point.y;
+            transform.position = pos;
         }
     }
 }
