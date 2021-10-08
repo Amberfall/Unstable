@@ -44,3 +44,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: character
+    uniqueID: 4014717449
+    locked: 0
+  - name: objects in front of player
+    uniqueID: 651249245
+    locked: 0
+  - name: UI
+    uniqueID: 102653283
+    locked: 0
