@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Border Collisions
+    uniqueID: 1054582629
+    locked: 0
   - name: Background
     uniqueID: 3684161937
     locked: 0
